@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
+		{% include head.html %}
 		<body>
 			<nav>
 	    		<ul>
@@ -25,5 +21,7 @@
 	        		<li><a href="https://github.com/ange-crespo">github.com/ange-crespo</a></li>
 				</ul>
 			</footer>
+			
+			{% include scripts.html %}
 		</body>
 	</html>
