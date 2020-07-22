@@ -23,16 +23,16 @@ t:
   fr:
     home:
       name: "Accueil"
-      url: "/fr/"
+      url: "/fr"
     about:
       name: "À propos"
-      url: "/about/fr/"
+      url: "/about/fr"
     cv:
       name: "CV"
-      url: "/cv/fr/"
+      url: "/cv/fr"
     blog:
       name: "Blog"
-      url: "/blog/fr/"
+      url: "/blog/fr"
   zh:
     home:
       name: "首页"
