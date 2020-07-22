@@ -1,4 +1,42 @@
 theme: jekyll-theme-minimal
 name: Ange Crespo, Engineer
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:categories/:year/:month/:day/:title
+
+plugins:
+  - jekyll-sitemap
+
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+    cv:
+      name: "CV"
+      url: "/cv/"
+    blog: 
+      name: "Blog"
+      url: '/blog/'
+  fr:
+    home:
+      name: "Accueil"
+      url: "/fr/"
+    about:
+      name: "À propos"
+      url: "/about/fr/"
+    cv:
+      name: "CV"
+      url: "/cv/fr/"
+    blog:
+      name: "Blog"
+      url: "/blog/fr/"
+  zh:
+    home:
+      name: "首页"
+      url: "/首页/"
+    about:
+      name: "关于"
+      url: "/关于/"
