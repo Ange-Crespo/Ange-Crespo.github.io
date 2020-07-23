@@ -8,6 +8,8 @@ plugins:
 
 t:
   en:
+    logo:
+      url: "emojione:flag-for-united-kingdom"
     home:
       name: "Home"
       url: "/"
@@ -21,6 +23,8 @@ t:
       name: "Blog"
       url: '/blog/'
   fr:
+    logo:
+      url: "emojione:flag-for-france"
     home:
       name: "Accueil"
       url: "/fr"
@@ -33,6 +37,49 @@ t:
     blog:
       name: "Blog"
       url: "/blog/fr"
+  zh:
+    home:
+      name: "首页"
+      url: "/首页/"
+    about:
+      name: "关于"
+      url: "/关于/"
+
+tr :
+  en:
+    logo:
+      url: "emojione:flag-for-united-kingdom"
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+    cv:
+      name: "CV"
+      url: "/cv/"
+    blog: 
+      name: "Blog"
+      url: '/blog/'
+    link:
+      name: "Link"
+  fr:
+    logo:
+      url: "emojione:flag-for-france"
+    home:
+      name: "Accueil"
+      url: "/fr"
+    about:
+      name: "À propos"
+      url: "/about/fr"
+    cv:
+      name: "CV"
+      url: "/cv/fr"
+    blog:
+      name: "Blog"
+      url: "/blog/fr"
+    link:
+      name: "Liens"
   zh:
     home:
       name: "首页"

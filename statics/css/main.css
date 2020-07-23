@@ -50,9 +50,13 @@ ul.posts li {
 
 .en:lang(en), .fr:lang(fr), .zh:lang(zh){
     font-weight: bold;
-    color : red;
+    color: #feda6a;
 }
 
+.en, .fr, .zh{
+    text-transform: uppercase;
+}
+}
 .areyayellow-text{
     color: #feda6a !important;
 }
@@ -61,7 +65,7 @@ ul.posts li {
     background-color: #feda6a !important;
 }
 
-.silverfox-text{
+.{
     color: #d4d4dc !important;
 }
 
@@ -85,7 +89,12 @@ ul.posts li {
     background-color : #1d1e22 !important;
 }
 
-
-
+.linkfoot{
+display:block !important;
+}
+.linkfoot a:hover, .nav-wrapper a:hover{
+    color: #feda6a !important;
+}
+    
 
 
