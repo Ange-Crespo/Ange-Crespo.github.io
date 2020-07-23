@@ -1,5 +1,6 @@
 <header>
     <nav class="darkslate areyayellow-text"> 
+        <!-- Begin menu nav bar for big screen-->
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -16,7 +17,9 @@
                     </li>
             </ul>
         </div>
+        <!-- End menu nav bar for big screen-->
     </nav>
+    <!-- Begin menu side bar for medium and small screen-->
     <ul class="sidenav" id="mobile-nav">
         {% for menu in site.t[page.lang] %}
             <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
@@ -25,9 +28,11 @@
         <li><a class="dropdown-trigger-mobile lang-display" href="#!" data-target="dropdown1">
         <span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span>
         {{ page.lang }}<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
+    </ul>
+    <!-- End menu side bar for medium and small screen-->
 
-        <ul id="dropdown1" class="dropdown-content">
+    <!-- Begin dropdown content for medium and small screen-->
+    <ul id="dropdown1" class="dropdown-content">
 
         {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
         {% for post in posts %}
@@ -47,7 +52,9 @@
             </li>
         {% endfor %}
     </ul>
+    <!-- End dropdown content for medium and small screen-->
 
+    <!-- Begin dropdown content for big screen-->
     <ul id="dropdown2" class="dropdown-content">
 
         {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -68,5 +75,5 @@
             </li>
         {% endfor %}
     </ul>
-
+    <!-- End dropdown content for big screen-->
 </header>
