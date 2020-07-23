@@ -1,40 +1,9 @@
 <!DOCTYPE html>
 	<html>
 		{% include head.html %}
+		{% include header.html %}
 		<body lang= "{{ page.lang }}">
-			<header>
-				<nav class="darkslate areyayellow-text"> 
-					<div class="nav-wrapper">
-						<ul id="nav-mobile" class="left hide-on-med-and-down">
-								{% for menu in site.t[page.lang] %}
-								<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
-								{% endfor %}
-						</ul>
-						
-						<ul id="nav-mobile" class="right hide-on-med-and-down">
-
-								{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-								{% for post in posts %}
-								  <li>
-									<a href="{{ post.url }}" class="{{ post.lang }}">
-										<span class="iconify" data-icon="{{ site.t[post.lang].logo.url }}" data-inline="false"></span> 
-										{{ post.lang }}</a>
-								  </li>
-								{% endfor %}
-								
-								{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-								{% for page in pages %}
-								  <li>
-									<a href="{{ page.url }}" class="{{ page.lang }}">
-										<span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span> 
-										{{ page.lang }}</a>
-								  </li>
-								{% endfor %}
-
-						</ul>
-					</div>
-				</nav>
-			</header>
+			
 			<main>	
 				<div class="container">
 				

@@ -53,7 +53,7 @@ ul.posts li {
     color: #feda6a;
 }
 
-.en, .fr, .zh{
+.en, .fr, .zh, .lang-display{
     text-transform: uppercase;
 }
 }

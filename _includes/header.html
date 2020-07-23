@@ -1,0 +1,72 @@
+<header>
+    <nav class="darkslate areyayellow-text"> 
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    {% for menu in site.t[page.lang] %}
+                    <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+                    {% endfor %}
+            </ul>
+            
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="dropdown-trigger lang-display" href="#!" data-target="dropdown2">
+                        <span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span>
+                        {{ page.lang }}<i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+        {% for menu in site.t[page.lang] %}
+            <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+        {% endfor %}
+
+        <li><a class="dropdown-trigger-mobile lang-display" href="#!" data-target="dropdown1">
+        <span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span>
+        {{ page.lang }}<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+
+        <ul id="dropdown1" class="dropdown-content">
+
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+            <li>
+            <a href="{{ post.url }}" class="{{ post.lang }}">
+            <span class="iconify" data-icon="{{ site.t[post.lang].logo.url }}" data-inline="false"></span> 
+            {{ post.lang }}</a>
+            </li>
+        {% endfor %}
+
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+            <li>
+            <a href="{{ page.url }}" class="{{ page.lang }}">
+            <span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span> 
+            {{ page.lang }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul id="dropdown2" class="dropdown-content">
+
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+            <li>
+            <a href="{{ post.url }}" class="{{ post.lang }}">
+            <span class="iconify" data-icon="{{ site.t[post.lang].logo.url }}" data-inline="false"></span> 
+            {{ post.lang }}</a>
+            </li>
+        {% endfor %}
+
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+            <li>
+            <a href="{{ page.url }}" class="{{ page.lang }}">
+            <span class="iconify" data-icon="{{ site.t[page.lang].logo.url }}" data-inline="false"></span> 
+            {{ page.lang }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+</header>
