@@ -63,6 +63,8 @@ tr :
       url: '/blog/'
     link:
       name: "Link"
+    written:
+      name: "Written the"
   fr:
     logo:
       url: "emojione:flag-for-france"
@@ -80,6 +82,8 @@ tr :
       url: "/blog/fr"
     link:
       name: "Liens"
+    written:
+      name: "Écrit le"
   zh:
     home:
       name: "首页"
