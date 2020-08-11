@@ -17,7 +17,7 @@ Cette aptitude, la partager, c'est la plus belle des choses qu'il nous soit donn
 Être pudique est naturel, la peur de se montrer nu, de montrer ce que l'on est et ce que l'on fait. La peur, le trac, la tension... 
 
 {:.text-justify}
-Et tout cela n'est rien face à la délivrance, à cette pseudo renaissance. La peur, le trac, les tensions s'effacent et enfin notre talent ce joyaux que la foule a poli peu briller. Et enfin, ce talent que notre travail a su faire naître peut briller. 
+Et tout cela n'est rien face à la délivrance, à cette pseudo renaissance. La peur, le trac, les tensions s'effacent et enfin notre talent ce joyaux que la foule a poli peut briller. Et enfin, ce talent que notre travail a su faire naître peut briller. 
 
 >"Le talent, c'est d'avoir envie de faire quelque chose." 
 > Jacques Brel
