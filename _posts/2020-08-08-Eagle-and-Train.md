@@ -2,7 +2,7 @@
 layout: post
 title: "Eagle and train !"
 date: 2020-08-08
-lang: fr
+lang: en
 ref : eagle_and_train
 categories: reflexion
 ---
