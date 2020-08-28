@@ -6,13 +6,33 @@
 <script>
 $(document).ready(function(){
 
+    function filter_display(candidate) {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        let topics = urlParams.getAll('topics');
+        var not_selected=true;
+        if (typeof topics !== 'undefined' && topics.length > 0) {
+            
+            for (const index in topics) {
+                console.log(topics[index]);
+                if (candidate.data('categories').categories.includes(topics[index])){
+                    candidate.css("display", "visible");
+                    not_selected=false;
+                }
+            }
+            if (not_selected){
+                candidate.css("display", "none");
+            }
+        }    
+    }
     $(".dropdown-trigger").dropdown({coverTrigger: false});
     $(".dropdown-trigger-mobile").dropdown({coverTrigger: false});
     $(".sidenav").sidenav();
-
+    $('select').formSelect({classes:"cat-option"});
+    console.log("cou");
+    $('.to_filter').each(function(){
+        filter_display($(this));
+        });
 });
-
-        
-
-
 </script>

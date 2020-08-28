@@ -5,9 +5,27 @@ lang : fr
 ref : blog
 ---
 	<h1>{{ page.title }}</h1>
+
+	<div class="input-field col s12">
+		<form method="get">
+			<select  multiple id="topics" name="topics">
+			<option value="" disabled selected>Choissisez vos sujets preferes</option>
+			{% assign counter = 1 %}
+			{% for category in site.categories %}
+			<option value={{ category | first }}>{{ category | first }}{% unless forloop.last %}{% endunless %}</option>
+				
+			{% endfor %}
+			</select>
+			<label>Selection de sujet</label>
+		
+			<button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
+		</form>
+	</div>
+
 	<ul class="posts">
 		{% assign posts=site.posts | where:"lang", page.lang | sort: 'data' %}
 		{% for post in posts %}
-			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		<li class="to_filter" data-categories='{"categories":[{% for category in post.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}]}'>
+			<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
