@@ -13,9 +13,7 @@ $(document).ready(function(){
         let topics = urlParams.getAll('topics');
         var not_selected=true;
         if (typeof topics !== 'undefined' && topics.length > 0) {
-            
             for (const index in topics) {
-                console.log(topics[index]);
                 if (candidate.data('categories').categories.includes(topics[index])){
                     candidate.css("display", "visible");
                     not_selected=false;
@@ -29,8 +27,7 @@ $(document).ready(function(){
     $(".dropdown-trigger").dropdown({coverTrigger: false});
     $(".dropdown-trigger-mobile").dropdown({coverTrigger: false});
     $(".sidenav").sidenav();
-    $('select').formSelect({classes:"cat-option"});
-    console.log("cou");
+    $('select').formSelect({classes:"cat-option select-filter"});
     $('.to_filter').each(function(){
         filter_display($(this));
         });

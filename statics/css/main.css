@@ -107,3 +107,8 @@ display:block !important;
     text-justify : auto;
 
 }
+
+.select-filter{
+    width: 90%;
+    display:inline-block;
+}
