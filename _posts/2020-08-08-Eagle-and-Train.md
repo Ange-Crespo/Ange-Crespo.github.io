@@ -38,11 +38,13 @@ Then a djiin came to the eagle and told him he could help the eagle to talk with
 The eagle was so happy to be able to speak with the train. Do you know what the train decided to do when he received the messages from the djiin saying that his lovely eagle was having trouble and that if he wanted he could send some rabbit thanks to the djiin power. The train decide to ignore the call and did not send anything to his lover.
 {:.text-justify}
 The eagle began to ask himself question. What did he do wrong ? He helps train, even if at the end the train did not accept it... Maybe the train did not love him... Or maybe the train did not receive the message from the djiin... Or maybe the train did not understood the emergency of the situation.
+
 {:.text-justify}
 The eagle is wondering what to do... What would you do ? 
 {:.text-justify}
 The eagle feel betrayed, he feel disapointed, he had invested so many years of his life following his lover. For sure he enjoyed it ! But at the end, the eagle has nothing for him, just his ability to hunt again. For sure the eagle need to find a way to survive by his own. He needs to hunt for rabbits even if it's hard and not as easy as it was with his fast and strong friend. The eagle felt so disoriented and suddenly so lonely.
 {:.text-justify}
 Why the train do not understnad the eagle needs to simply survive or get some gratefulness. Does the eagle should have made rabbit reserve by his own instead? The eagle was so focused on the best road for his beloved train that he forgot to follow his own road. Sometimes in life we keep following trains, or we even become one : Too fast, too furious to care about people who care about us. A train is so efficient if there is a an eagle to help the navigation process, and an eagle without a train could not hunt as much rabbit alone. The Eagle did not need train to survive and the train did not need the eagle to survive :  it's a choice and should always be. The train should have been taking care of the eagle but he was too busy to do it. That's why the train should have worked on setting the eagle free by making a special rabbit for him in case they had to fall apart.
+
 {:.text-justify}
 We can all be eagle and trains and we need to care about each other. Not only in present day but also for the future that has to come. If you love people let them be free to love you. Care about you first like the train and help people around you to be free.
