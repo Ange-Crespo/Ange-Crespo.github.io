@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "De la Guerre et de et de la responsabilité"
+title: "De la Guerre et de la responsabilité"
 date: 2020-09-14
 lang: fr
 ref : guerre_responsabilite
@@ -46,6 +46,6 @@ Le monde est tellement complexe, les statuts se font et se défont, comme les id
 {:.text-justify}
 On se dit que nous "on ne le fera jamais" et c'est là qu'est le piège. Vous le ferez vous aussi, toujours. Vous le faites déjà. Demander aux autres de se repentir sans se repentir soi-même, c'est une demande vaine. Pourquoi le peuple japonnais aurait a s'excuser alors que nous participons chaque jours pour notre unique intérêt personnel à la destruction de ce qui permet à l’humanité de survivre. Je pense que le pire des pécheurs est celui qui n'accepte pas qu'il l'est. J'accepte, humblement, ce statut. La question est de savoir ce que j'en ferais. C'est ainsi que je voulais humblement m'excuser pour les atrocités commissent par mes frères et sœurs du passé et que je te fais la promesse de faire ma part pour que cela n'arrive plus.
 
-*(des gens attirés sexuellement par les enfants) 
-**(des gens avec le désir profond de tuer et qui jouissent a l’idée de faire souffrir un autre individu) 
-***Biologiquement ou pathologiquement
+\*Des gens attirés sexuellement par les enfants, c'est-a-dire qu'il n'y a pas forcement de passage a l'acte
+\*\*Des gens avec le désir profond de tuer et qui jouissent a l’idée de faire souffrir un autre individu  
+\*\*\*Biologiquement ou pathologiquement
