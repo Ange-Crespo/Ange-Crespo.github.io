@@ -11,7 +11,7 @@ There are 2 things :
 1. Things you know 
 2. Things you don’t know
 
-In the things you don’t know there are 
+In the things you don’t know there are :
 1. What you know you don’t know
 2. What you don’t know you don’t know 
 3. What you think you know but you actually don’t know
@@ -42,4 +42,4 @@ I'll shift subject completely without real link. Reader, be ready.
 Our emotion are like waves. You can decide to take it or not. Like the surfer you can not control your emotions. When you think you control it's a lie, you control the surfboard. Waves will always be here you can decide to take the surfboard and ride it, go on the beach and watch it, go underwater and be wobbled in every directions, try to fight and resist them... I think that you get it. You are not your emotions, you are the one that decide to do something or not about it.
 
 {:.text-justify}
-I think that I am oretty good to make people feel waves. Without knowing exactly why and what I do I can trigger joy; anger ; pain; sadness. I don't think that I am the only one but that is a big responsibility to get that power. But I still think that at the end of the story the responsibility to do something with the waves comes to the people feeling it. We do not trigger people on purpose, most of the time... I think that we learn something through emotions. We learn to ride it and the way we like to ride it.
+I think that I am pretty good to make people feel waves. Without knowing exactly why and what I do I can trigger joy; anger ; pain; sadness. I don't think that I am the only one but that is a big responsibility to get that power. But I still think that at the end of the story the responsibility to do something with the waves comes to the people feeling it. We do not trigger people on purpose, most of the time... I think that we learn something through emotions. We learn to ride it and the way we like to ride it.

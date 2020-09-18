@@ -11,40 +11,55 @@ layout: default
     <div class="contentholder">
       {{ content }}
     </div>
-
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    <ul>
-    {% for post in posts %}
+    <h5>{% if page.lang == 'fr' %}Autres articles :{% endif %}{% if page.lang == 'en' %}Other articles :{% endif %}</h5>
+    <div class="marquee">
+      {% assign posts=site.posts | where:"lang", page.lang %}
+      <ul>
+      {% for post in posts %}
+          <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+      {% endfor %}
+      {% for post in posts %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
-    {% endfor %}
-    </ul>
+      {% endfor %}
 
+      {% for post in posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
 
-    {% for post in site.posts %}
-      {% if post.lang == page.lang %}
-        {% if prev %}
-          <a href="{{ post.url }}">Previous</a>
-        {% endif %}
-        {% assign prev = false %}
-        {% if post.id == page.id %}
-          {% assign prev = true %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+      </ul>
+    </div>
 
-    {% for post in site.posts reversed %}
-      {% if post.lang == page.lang %}
-        {% if next %}
-          <a href="{{ post.url }}">Next</a>
-          {% break %}
+    <div>
+      {% for post in site.posts %}
+        {% if post.lang == page.lang %}
+          {% if prev %}
+            <a href="{{ post.url }}">{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
+          {% endif %}
+          {% assign prev = false %}
+          {% if post.id == page.id %}
+            {% assign prev = true %}
+          {% endif %}
         {% endif %}
-        {% assign next = false %}
-        {% if post.id == page.id %}
-          {% assign next = true %}
+      {% endfor %}
+
+      {% for post in site.posts reversed %}
+        {% if post.lang == page.lang %}
+          {% if next %}
+            <a href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}</a>
+            {% break %}
+          {% endif %}
+          {% assign next = false %}
+          {% if post.id == page.id %}
+            {% assign next = true %}
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
 </div>
 

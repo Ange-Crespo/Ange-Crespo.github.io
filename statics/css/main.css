@@ -112,3 +112,58 @@ display:block !important;
     width: 90%;
     display:inline-block;
 }
+
+.marquee{
+
+  width:100%;                      /* largeur de la fenêtre */
+  margin: 1em auto 2em;
+  border: 3px solid #F0F0FF;
+  overflow: hidden;                     /* masque tout ce qui dépasse */
+  box-shadow: 0 .2px .5px #CCC,inset 0 0 4px .9px #CCC;
+
+}
+
+.marquee > ul {
+    margin:1px;
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 10s infinite linear;
+
+  }
+
+.marquee > ul > li {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 1px;                   /* un peu d'espace pour la transition */
+    padding-left: 5%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    list-style-type: none;
+    font-size: 2em;
+  }
+
+.marquee > ul > li:nth-child(2n)>a{
+    color:#003d3f;
+
+}
+
+.marquee > ul > li:nth-child(2n+1)>a{
+    color:#9e7c7c;
+}
+
+.marquee > ul > li:nth-child(2n)>a:hover{
+    color:#72a19f;
+}
+
+.marquee > ul > li:nth-child(2n+1)>a:hover{     
+    color:#478385; 
+}
+
+@keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+}
