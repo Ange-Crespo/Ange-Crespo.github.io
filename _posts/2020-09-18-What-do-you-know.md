@@ -2,7 +2,7 @@
 layout: post
 title: "What do you know ?"
 date: 2019-09-18
-lang: fr
+lang: en
 ref : connaissance
 categories: connaissance reflexion
 ---
