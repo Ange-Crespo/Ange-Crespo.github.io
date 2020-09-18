@@ -126,7 +126,6 @@ display:block !important;
 .marquee > ul {
     margin:1px;
     display: inline-block;                /* modèle de boîte en ligne */
-    padding-left: 100%;                   /* placement à droite du conteneur */
     white-space: nowrap;                  /* pas de passage à la ligne */
     -webkit-animation: defilement-rtl 20s infinite linear ;
     animation: defilement-rtl 20s infinite linear;
@@ -162,7 +161,7 @@ display:block !important;
         transform: translateX(0);      /* position initiale à droite */
       }
       100% {
-        transform: translateX(-100%);  /* position finale à gauche */
+        transform: translateX(-50%);  /* position finale à gauche */
       }
 
 }
@@ -172,7 +171,7 @@ display:block !important;
       transform: translateX(0);      /* position initiale à droite */
     }
     100% {
-      transform: translateX(-100%);  /* position finale à gauche */
+      transform: translateX(-50%);  /* position finale à gauche */
     }
 }
 

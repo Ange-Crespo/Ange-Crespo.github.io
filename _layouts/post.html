@@ -54,7 +54,7 @@ layout: default
       {% for post in site.posts %}
         {% if post.lang == page.lang %}
           {% if prev %}
-            <a href="{{ post.url }}">{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
+            <a class="left" href="{{ post.url }}">{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
           {% endif %}
           {% assign prev = false %}
           {% if post.id == page.id %}
@@ -66,7 +66,7 @@ layout: default
       {% for post in site.posts reversed %}
         {% if post.lang == page.lang %}
           {% if next %}
-            <a href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}</a>
+            <a class="right" href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}</a>
             {% break %}
           {% endif %}
           {% assign next = false %}
