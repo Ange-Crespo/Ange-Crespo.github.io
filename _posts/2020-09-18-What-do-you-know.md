@@ -5,6 +5,7 @@ date: 2019-09-18
 lang: en
 ref : connaissance
 categories: connaissance reflexion
+comments: true
 ---
 
 There are 2 things : 

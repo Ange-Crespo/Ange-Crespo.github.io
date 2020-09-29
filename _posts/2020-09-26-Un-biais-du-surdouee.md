@@ -4,7 +4,8 @@ title: "Des biais du surdoué."
 date: 2020-09-26
 lang: fr
 ref : biaissurdoue
-categories: reflexion 
+categories: reflexion
+comments: true
 ---
 
 {:.text-justify}

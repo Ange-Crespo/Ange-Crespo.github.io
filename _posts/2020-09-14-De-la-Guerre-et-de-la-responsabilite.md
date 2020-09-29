@@ -5,6 +5,7 @@ date: 2020-09-14
 lang: fr
 ref : guerre_responsabilite
 categories: guerre reflexion
+comments: true
 ---
 
 {:.text-justify}

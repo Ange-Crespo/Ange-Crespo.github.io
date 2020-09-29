@@ -5,6 +5,7 @@ date: 2010-11-20
 lang: fr
 ref : talent
 categories: lycee reflexion
+comments: true
 ---
 
 {:.text-justify}
