@@ -6,6 +6,14 @@ permalink: /blog/:categories/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
 
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: angecrespo
+url: https://ange-crespo.github.io/
+
+
 t:
   en:
     logo:
