@@ -26,6 +26,6 @@ ref : blog
 		{% assign posts=site.posts | where:"lang", page.lang | sort: 'data' %}
 		{% for post in posts %}
 		<li class="to_filter" data-categories='{"categories":[{% for category in post.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}]}'>
-			<span>{{ post.date | date_to_string }}</span> » <a class="areyellow-text" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			<span>{{ post.date | date_to_string }}</span> » <a class="areyayellow-text" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
