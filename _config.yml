@@ -69,7 +69,7 @@ tr :
       name: "Blog"
       url: '/blog/'
     link:
-      name: "Link"
+      name: "Links"
     written:
       name: "Written the"
   fr:

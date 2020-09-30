@@ -28,6 +28,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #feda6a !important;
 }
 h1 {
     font-size: 3em;
@@ -97,7 +98,7 @@ ul.posts li {
 display:block !important;
 }
 
-.linkfoot a:hover, .nav-wrapper a:hover{
+.linkfoot a:hover, .nav-wrapper a:hover, .linkfoot:hover svg path{
     color: #feda6a !important;
 }
 
@@ -192,3 +193,10 @@ display:block !important;
     margin-left: auto;
 }
 
+.malt-logo-footer{
+    fill:#ffffff;
+}
+
+.linkfoot:hover svg path{
+    fill:#feda6a !important;
+}
