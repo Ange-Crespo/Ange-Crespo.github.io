@@ -1,10 +1,11 @@
-<div class = "previous_next">
+<div class = "previous-next">
     {% for post in site.posts %}
       {% if post.lang == page.lang %}
         {% if prev %}
-          <i class="material-icons">arrow-back</i>
-          <a class="left" href="{{ post.url }}">{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
-          {% endif %}
+            <span class="left">
+                <a class="areyayellow-text" href="{{ post.url }}"><i class="material-icons small areyayellow-text">arrow_back</i>{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
+            </span>
+        {% endif %}
         {% assign prev = false %}
         {% if post.id == page.id %}
           {% assign prev = true %}
@@ -15,8 +16,11 @@
     {% for post in site.posts reversed %}
       {% if post.lang == page.lang %}
         {% if next %}
-          <a class="right" href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}</a>
-          <i class="material-icons">arrow-forward</i>
+        <span class="right">
+          <a class="areyayellow-text" href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}
+            <i class="material-icons small areyayellow-text">arrow_forward</i>
+          </a>
+        </span>
           {% break %}
         {% endif %}
         {% assign next = false %}
@@ -25,4 +29,4 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-  </div>
+</div>

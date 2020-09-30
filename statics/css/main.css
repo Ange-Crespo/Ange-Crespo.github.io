@@ -180,8 +180,15 @@ display:block !important;
     border-radius: 50%;
 }
 
-.previous-next>a{
-    color: gold;
+.previous-next>span{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.previous-next>span>*{
+
     font-size: 25px;
+    margin-left: auto;
 }
 
