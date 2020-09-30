@@ -72,6 +72,26 @@ tr :
       name: "Links"
     written:
       name: "Written the"
+    fb:
+      name: ""
+    insta:
+      name: ": Follow Me !"
+    malt:
+      name: ""
+    whatsapp:
+      name: "What'sApp message me"
+    tel: 
+      name: ""
+    email:
+      name: ""
+    tip:
+        name: ": Tip me !"
+    github:
+      name: ""
+    linkedin:
+      name: ""
+    
+
   fr:
     logo:
       url: "emojione:flag-for-france"
@@ -91,6 +111,24 @@ tr :
       name: "Liens"
     written:
       name: "Écrit le"
+    fb:
+      name: ""
+    insta:
+      name: ": Follow Moi !"
+    malt:
+      name: ""
+    whatsapp:
+      name: "What'sApp message"
+    tel: 
+      name: ""
+    email:
+      name: ""
+    tip:
+        name: ": Soutient moi !"
+    github:
+      name: ""
+    linkedin:
+      name: ""
   zh:
     home:
       name: "首页"
