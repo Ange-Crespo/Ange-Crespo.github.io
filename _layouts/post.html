@@ -12,10 +12,6 @@ layout: default
       {{ content }}
     </div>
 
-    {% if site.disqus.shortname %}
-      {% include disqus_comments.html %}
-    {% endif %}
-
     <h5>{% if page.lang == 'fr' %}Autres articles :{% endif %}{% if page.lang == 'en' %}Other articles :{% endif %}</h5>
     <div class="marquee">
       {% assign posts=site.posts | where:"lang", page.lang %}
@@ -55,6 +51,10 @@ layout: default
       </ul>
     </div>
     
+    {% if site.disqus.shortname %}
+      {% include disqus_comments.html %}
+    {% endif %}
+
     <div>
       {% for post in site.posts %}
         {% if post.lang == page.lang %}

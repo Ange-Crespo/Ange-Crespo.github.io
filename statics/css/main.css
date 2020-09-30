@@ -117,9 +117,9 @@ display:block !important;
 
   width:100%;                      /* largeur de la fenêtre */
   margin: 1em auto 2em;
-  border: 3px solid #F0F0FF;
+  border: 2px solid #FFFFFF;
   overflow: hidden;                     /* masque tout ce qui dépasse */
-  box-shadow: 0 .1px .4px #CCC,inset 0 0 2px .4px #CCC;
+  box-shadow: 0px 0px 2.1px #C0C,inset 0px 0px 8px -0.6px #CCCCF4
 
 }
 
@@ -127,8 +127,8 @@ display:block !important;
     margin:1px;
     display: inline-block;                /* modèle de boîte en ligne */
     white-space: nowrap;                  /* pas de passage à la ligne */
-    -webkit-animation: defilement-rtl 20s infinite linear ;
-    animation: defilement-rtl 20s infinite linear;
+    -webkit-animation: defilement-rtl 30s infinite linear ;
+    animation: defilement-rtl 30s infinite linear;
   }
 
 .marquee > ul > li {
