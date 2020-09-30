@@ -1,0 +1,28 @@
+<div class = "previous_next">
+    {% for post in site.posts %}
+      {% if post.lang == page.lang %}
+        {% if prev %}
+          <i class="material-icons">arrow-back</i>
+          <a class="left" href="{{ post.url }}">{% if page.lang == 'en' %}Previous{% endif %}{% if page.lang == 'fr' %}Précédent{% endif %}</a>
+          {% endif %}
+        {% assign prev = false %}
+        {% if post.id == page.id %}
+          {% assign prev = true %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.posts reversed %}
+      {% if post.lang == page.lang %}
+        {% if next %}
+          <a class="right" href="{{ post.url }}">{% if page.lang == 'en' %}Next{% endif %}{% if page.lang == 'fr' %}Suivant{% endif %}</a>
+          <i class="material-icons">arrow-forward</i>
+          {% break %}
+        {% endif %}
+        {% assign next = false %}
+        {% if post.id == page.id %}
+          {% assign next = true %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>

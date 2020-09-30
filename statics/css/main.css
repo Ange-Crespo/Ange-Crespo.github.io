@@ -180,3 +180,8 @@ display:block !important;
     border-radius: 50%;
 }
 
+.previous-next>a{
+    color: gold;
+    font-size: 25px;
+}
+
