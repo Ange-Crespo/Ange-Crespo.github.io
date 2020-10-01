@@ -114,7 +114,7 @@ tr :
     fb:
       name: ""
     insta:
-      name: ": Follow Moi !"
+      name: ": Me suivre!"
     malt:
       name: ""
     whatsapp:
@@ -124,7 +124,7 @@ tr :
     email:
       name: ""
     tip:
-        name: ": Soutient moi !"
+        name: ": Me soutenir!"
     github:
       name: ""
     linkedin:
