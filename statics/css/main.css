@@ -26,14 +26,40 @@ a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
     color: #feda6a !important;
 }
-h1 {
+
+h1{
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+.index-title{
+    font-size: 4vw;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.index-text{
+    vertical-align: middle;
+    font-size:2vw;
+}
+
+@media only screen and (max-width: 601px) {
+    .index-title {
+        font-size: 7vw;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    }
+
+    .index-text{
+        vertical-align: middle;
+        font-size:5vw;
+    }
+
+  }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
