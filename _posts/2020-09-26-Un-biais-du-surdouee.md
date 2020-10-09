@@ -28,7 +28,7 @@ L'intelligence est multidimensionnelle, l'intelligence sociale, scientifique, é
 Et que tout ce qu'on sait c'est soit incertain, soit pas grand chose comparé au reste de ce qu'il reste a savoir. 
 
 {:.text-justify}
-##Principe d'auto-complaisance : 
+## Principe d'auto-complaisance : 
 
 {:.text-justify}
 J'ai toujours considéré que la chance a une réelle part dans la réussite ou dans l’échec. La seule chose qu'on puisse faire c'est essayer d'optimiser ses chances.
