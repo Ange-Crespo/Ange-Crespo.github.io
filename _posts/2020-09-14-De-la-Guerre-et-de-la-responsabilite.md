@@ -50,3 +50,6 @@ On se dit que nous "on ne le fera jamais" et c'est là qu'est le piège. Vous le
 \*Des gens attirés sexuellement par les enfants, c'est-a-dire qu'il n'y a pas forcement de passage à l'acte
 \*\*Des gens avec le désir profond de tuer et qui jouissent a l’idée de faire souffrir un autre individu
 \*\*\*Biologiquement ou pathologiquement
+
+{:.author}
+*Auteur : Ange Crespo*

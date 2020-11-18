@@ -22,3 +22,6 @@ Et tout cela n'est rien face à la délivrance, à cette pseudo-renaissance. La 
 
 > "Le talent, c'est d'avoir envie de faire quelque chose."
 > Jacques Brel
+
+{:.author}
+*Auteur : Ange Crespo*

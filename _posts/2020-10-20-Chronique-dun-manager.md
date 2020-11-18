@@ -39,21 +39,21 @@ Je pense que ces 2 façons d’être un artiste proposé par LMA et Swan sont in
 Le son, l'amour du son, l’obsession de produire le meilleur son ne suffisent pas pour réussir dans le milieu du rap et ce sont ces clefs annexes, impossibles à trouver que je suis allé chercher en interviewant LMA et Swan. Car le son, en tant que manager, ne sera pas vraiment ma spécialité.
 {:.text-justify}
 Ces deux personnages avaient tellement à m'apporter ! Tout d'abord, ils m'ont parlaient des rôles des membres de l'équipe qui entourent un artiste et le lexique de ce milieu :
-{:.text-justify}
+
 * Manager : Askip, c'est mon rôle. Représente l'artiste, auprès des autres professionnel du milieu; il est là pour l'accompagner dans ses démarches au quotidien. Chef d'orchestre qui ne fait pas de musique. Il constitue un rétroplanning en fonction des objectifs de carrières de l'artiste. Il s'agir, par exemple, lorsqu'il faudra enregistrer un disque définir quand, où, avec qui, et combien? Il est aussi en charge de gérer le réseau professionnel qui gravite autour de l'artiste. En général le manager prend environ 50% de tout ce que touche l'artiste (c'est cool ça, mais du coup, ça veut dire qu'il y a beaucoup de boulot !). Les bons managers sont très rares (mince ça ne sera pas facile!). Le manager est souvent jugés inutiles pour les artistes qui débutent et qui peuvent gérer seul leur gestion du temps et de l’équipe qui les entoure. Pour les artistes en développement, le modèle de management est souvent informel, sans véritable contrat. (Je pense que c'est un problème. La relation managériale doit être formalisée au moins à l'oral et le rôle de chacun des membres de l’équipe doit clairement être explicitée quitte à improviser en cours de route ou a changer de casquette. Je pense aussi que le rôle de l'artiste est de faire de l'art, le reste il doit savoir ce qu'il se passe de façon transparente, mais ça peut être trop à gérer pour les artistes désintéressés par le management et dont ce n'est pas le métier).
-{:.text-justify}
+
 * Community Manager : il gère la communication sur les réseaux, je ne vais pas détailler plus.
-{:.text-justify}
+
 * Stratégie Marketing : en plus de la communication et de la présence sur la toile, il faut mettre en place les stratégies de vente qui vont au-delà de la gestion de la communauté qui suit l'artiste. C'est un vaste sujet et il y a du travail.
-{:.text-justify}
+
 * Directeur Artistique : il est le responsable de l’identité artistique de l'artiste (ton, style, genre, ambiance...). C'est un méta artiste qui apporte une vision artistique à l'artiste.
-{:.text-justify}
+
 * Tourneur/booker : il s'occupe de trouver des concerts et showcase pour l'artiste.
-{:.text-justify}
+
 * Ingénieur du son : artiste et technicien, il s'assure de la qualité du son produit, il fait le mixage et/ou le mastering.
-{:.text-justify}
+
 Le lexique est à développer, il est loin d'être exhaustif ! Et il me reste beaucoup à apprendre, à intégrer et à incarner, je le tiendrais à jour au fur et à mesure !
-{:.text-justify}
+
 LMA, qui a son studio à Toulouse afin d’être autonome pour la production, m'a conseillé de suivre les formations rémunérées par la région Occitanie chez [Octopus](https://federation-octopus.org/) à Toulouse.
 Cette association offre des formations en Management par exemple.
 {:.text-justify}
@@ -70,4 +70,5 @@ Un grand merci aux artistes et à vous qui me lisez !
 
 > [Paix Amour Unité et Amusement](https://www.youtube.com/watch?v=thsy5_Y2tZ8&ab_channel=fwtm) ! (#Afrika Bambaataa)
 
-Ange Crespo
+{:.author}
+*Auteur : Ange Crespo*

@@ -62,4 +62,7 @@ En attendant, vous savez comment me contacter. Pour changer le salaire des footb
 
 [![Jok'air crois en toi](http://img.youtube.com/vi/k9ZBk-2CEI0/0.jpg)](https://www.youtube.com/watch?v=k9ZBk-2CEI0 "Crois en toi")
 
+{:.author}
+*Auteur : Ange Crespo*
+
 

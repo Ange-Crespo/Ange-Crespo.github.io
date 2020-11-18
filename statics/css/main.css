@@ -226,3 +226,34 @@ display:block !important;
 .linkfoot:hover svg path{
     fill:#feda6a !important;
 }
+
+.contentholder>* a{
+    color : black;
+    text-decoration: underline black;
+}
+
+.contentholder p{
+    text-align: justify;
+    text-justify : auto;
+}
+
+.contentholder .center, .center-align {
+    text-align: center !important;
+  }
+
+.contentholder>ul{
+    padding-left: 40px !important;
+    list-style-type: disc !important;
+}
+
+.contentholder>ul>li{
+    list-style-type: disc !important;
+}
+
+.contentholder>ul>li>p{
+    font-size:1.3em;
+}
+
+.author{
+    text-align: right !important;
+}

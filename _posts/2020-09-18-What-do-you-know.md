@@ -44,3 +44,6 @@ Our emotion are like waves. You can decide to take it or not. Like the surfer yo
 
 {:.text-justify}
 I think that I am pretty good to make people feel waves. Without knowing exactly why and what I do I can trigger joy; anger ; pain; sadness. I don't think that I am the only one but that is a big responsibility to get that power. But I still think that at the end of the story the responsibility to do something with the waves comes to the people feeling it. We do not trigger people on purpose, most of the time... I think that we learn something through emotions. We learn to ride it and the way we like to ride it.
+
+{:.author}
+*Author : Ange Crespo*

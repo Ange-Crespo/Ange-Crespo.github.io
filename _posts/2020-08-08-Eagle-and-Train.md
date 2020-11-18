@@ -49,3 +49,6 @@ Why the train do not understnad the eagle needs to simply survive or get some gr
 
 {:.text-justify}
 We can all be eagle and trains and we need to care about each other. Not only in present day but also for the future that has to come. If you love people let them be free to love you. Care about you first like the train and help people around you to be free.
+
+{:.author}
+*Author : Ange Crespo*

@@ -45,3 +45,6 @@ Qui n'est pas un imposteur qui joue son propre rôle. La définition du "Moi', n
 Suis-je légitime a faire ce que je fais et a proposer ce que je propose ? 
 Suis-je réellement un expert dans tel ou tel domaine ? La réponse est surement "non", mais personne ne fait cette chose mieux que vous alors au yeux du monde vous êtes "l'expert", mais au fond de vous vous restez un "chercheur de vérité", le jours ou on estime qu'on est pas un imposteur et qu'on est vraiment "l'expert", ce jour la on devient [dangereux pour nous même et pour le monde]( https://fr.wikipedia.org/wiki/Maladie_du_Nobel). 
 C'est une chose de duper le monde, s'en est une autre de se duper soi-même.
+
+{:.author}
+*Auteur : Ange Crespo*
