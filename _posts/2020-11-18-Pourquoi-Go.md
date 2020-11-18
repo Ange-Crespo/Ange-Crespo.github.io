@@ -73,7 +73,7 @@ On pourrait donc résumer une partie de la philosophie de Go en une phrase : __*
 
 
 ### Un langage moderne&nbsp;:
-Go est un langage qui vit avec son temps et intègre nativement [un packet manager](https://blog.golang.org/using-go-modules), [un linter](https://github.com/golang/lint), [un formateur](https://golang.org/cmd/gofmt/), [une doc](https://godoc.org/golang.org/x/tools/cmd/godoc), etc. et ça, quel plaisir ! Besoin d'une bibliothèque OpenSource ? `go get github.com/auteur/lib` avec gestion des versions en prime. La creation d'un pipeline de CI/CD* n'a jamais était aussi simple&nbsp;: 
+Go est un langage qui vit avec son temps et intègre nativement [un packet manager](https://blog.golang.org/using-go-modules), [un linter](https://github.com/golang/lint), [un formateur](https://golang.org/cmd/gofmt/), [une doc](https://godoc.org/golang.org/x/tools/cmd/godoc), etc. et ça, quel plaisir ! Besoin d'une bibliothèque OpenSource ? `go get github.com/auteur/lib` avec gestion des versions en prime. La creation d'un pipeline de CI/CD(*) n'a jamais était aussi simple&nbsp;: 
 ```bash
 # création du dossier vendor
 go mod vendor                                                    
@@ -93,7 +93,7 @@ go tool cover -html=project_cover.cov -o coverage.html
 go build -o executable cmd/main.go                               
 ```
 
-> *CI/CD (Continuous Integration / Continuous Deployment) : Technique de management de code qui permet d'avoir une validation et un déploiement de code en production sans intervention humaine  
+> (*)CI/CD (Continuous Integration / Continuous Deployment) : Technique de management de code qui permet d'avoir une validation et un déploiement de code en production sans intervention humaine  
 
 Il n'y a plus qu'à mettre les commandes dans des builds stages, quel bonheur d'utilisation ...
 
@@ -131,12 +131,12 @@ De plus Go est pensé pour la vitesse d'exécution, et mon Dieu, qu'il est rapid
 
 > Java peut également avoir des performances similaires à condition de ne pas utiliser le Garbage Collector ni la JVM, autant dire que c'est plus vraiment du Java et que ces configurations ne seront jamais utilisées en production. 
 
-### Un typage fort* & gestion mémoire&nbsp;:
+### Un typage fort(*) & gestion mémoire&nbsp;:
 Go utilise un typage fort ce qui rend le coding plus intuitif ce qui permet d'écrire du code auto-commenté, une bonne pratique "native" de plus <sub>(bien qu'avoir de bons outils ne garantit pas un produit final de qualité ...)</sub> ! Petite particularité, les pointeurs sont de retour ! Même si certain n'apprécie pas forcément le typage (mais surtout les pointeurs, n'est-ce pas ?), il permet à Go une gestion fine de la pile (stack) et du tas (heap). Grâce à ça, Go vient avec un garbage collector très orienté performance au prix d'une consommation RAM plus importante (plus de détails [ici](https://stackoverflow.com/questions/40318257/why-go-can-lower-gc-pauses-to-sub-1ms-and-jvm-has-not) et [ici](https://blog.golang.org/ismmkeynote)).
 
 Grâce à ça, il est possible de lire des fichiers de plusieurs gigas et de les charger en mémoire en quelques secondes ([ici, 16 Go en ~25secs](https://medium.com/swlh/processing-16gb-file-in-seconds-go-lang-3982c235dfa2)).
 
-> Typage fort : obligation de donnée un type à une variable, par exemple `var number int` est une déclaration d'une variable de type nombre entier (`int`)
+> (*)Typage fort : obligation de donnée un type à une variable, par exemple `var number int` est une déclaration d'une variable de type nombre entier (`int`)
 
 ### Les executables Go&nbsp;:
 Quand Go compile, il ne fait pas semblant : il intègre dans le binaire l'ensemble de ses bibliothèques. Grâce à ça, il est possible de créer des [images Docker fonctionnel ne pesant que quelques Mo](https://medium.com/@chemidy/create-the-smallest-and-secured-golang-docker-image-based-on-scratch-4752223b7324).

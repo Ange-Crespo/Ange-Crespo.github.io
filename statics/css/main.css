@@ -154,8 +154,8 @@ display:block !important;
     margin:1px;
     display: inline-block;                /* modèle de boîte en ligne */
     white-space: nowrap;                  /* pas de passage à la ligne */
-    -webkit-animation: defilement-rtl 30s infinite linear ;
-    animation: defilement-rtl 30s infinite linear;
+    -webkit-animation: defilement-rtl 50s infinite linear ;
+    animation: defilement-rtl 50s infinite linear;
   }
 
 .marquee > ul > li {
