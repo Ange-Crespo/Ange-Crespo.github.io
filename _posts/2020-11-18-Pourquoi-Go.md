@@ -149,7 +149,7 @@ env GOOS=android GOARCH=arm go build -o app.apk cmd/app/main.go    # compilation
 
 La liste des OS et des architectures supportées est [plutôt longue](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)...
 
-### Go est bien supportés&nbsp;:
+### Go est bien supporté&nbsp;:
 Quoiqu'on pense de Google, les gars ont quand même de la ressource, ça tombe bien, une partie de leurs ingénieurs travaillent sur le langage Go à temps plein ... Ça a le mérite d'assurer sa pérennité.
 
 
