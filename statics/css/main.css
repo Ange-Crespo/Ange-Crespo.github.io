@@ -22,9 +22,20 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+
+.container a {
+    text-decoration: underline;
+    color : black;
+}
+
+.container a:hover {
+    text-decoration: underline;
+    color: #feda6a !important;
+}
+
+.posts a {
     text-decoration: none;
-    color: #999;
+    color : black;
 }
 
 a:hover {
@@ -290,7 +301,7 @@ h1{
     text-decoration:underline;
  }
 
- .contentholder h6{
+ .contentholder h5{
     font-size:1.7em !important;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration:underline;
