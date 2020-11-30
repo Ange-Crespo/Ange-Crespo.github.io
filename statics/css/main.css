@@ -32,13 +32,8 @@ a:hover {
     color: #feda6a !important;
 }
 
-h1{
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
 .index-title{
-    font-size: 4vw;
+    font-size: 4vw !important;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
@@ -256,4 +251,71 @@ display:block !important;
 
 .author{
     text-align: right !important;
+}
+
+.header{
+    text-decoration:overline underline #feda6a ;
+}
+
+.header::after{
+    content: "";
+    background: linear-gradient(to left, transparent 0%,#feda6a 50%, transparent 100%);
+}
+
+.header::before{
+    content: "";
+    background: linear-gradient(to left, transparent 0%,#feda6a 50%, transparent 100%); 
+}
+
+h1{
+   font-size:3em !important;
+   font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.contentholder h2{
+    font-size:2.7em !important;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration:underline;
+}
+
+.contentholder h3{
+    font-size:2.3em !important;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration:underline;
+ }
+
+ .contentholder h4{
+    font-size:1.9em !important;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration:underline;
+ }
+
+ .contentholder h6{
+    font-size:1.7em !important;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration:underline;
+ }
+
+.contentholder h2,
+.contentholder h2 ~ *,
+.contentholder h3 ~ h2,
+.contentholder h3 ~ h2 ~ *,
+.contentholder h4 ~ h3,
+.contentholder h4 ~ h2 ~ * {
+    margin-left: 0px;
+}
+
+
+.contentholder h3,
+.contentholder h3 ~ *,
+.contentholder h2 ~ h3,
+.contentholder h2 ~ h3 ~ *:not(h2):not(h4) {
+    margin-left: 40px;
+}
+
+.contentholder h4,
+.contentholder h4 ~ *,
+.contentholder h2 ~ h4,
+.contentholder h2 ~ h4 ~ *:not(h2):not(h3) {
+    margin-left: 80px;
 }
