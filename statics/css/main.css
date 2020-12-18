@@ -23,14 +23,15 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-.container a {
+.container a :not(.linkfoot a), .text-link{
     text-decoration: underline;
     color : black;
 }
 
-.container a:hover {
-    text-decoration: underline;
+.container a:hover :not(.linkfoot a), .text-link:hover {
+    text-decoration: underline ;
     color: #feda6a !important;
+    text-decoration-color: #feda6a  !important;
 }
 
 .posts a {
@@ -131,6 +132,9 @@ ul.posts li {
 display:block !important;
 }
 
+.linkfoot:hover svg path{
+    color:white !important;
+}
 .linkfoot a:hover, .nav-wrapper a:hover, .linkfoot:hover svg path{
     color: #feda6a !important;
 }
@@ -230,6 +234,9 @@ display:block !important;
     fill:#ffffff;
 }
 
+.svg-footer path{
+    color:white !important;
+}
 .linkfoot:hover svg path{
     fill:#feda6a !important;
 }
