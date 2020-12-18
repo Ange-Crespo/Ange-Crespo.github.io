@@ -13,6 +13,7 @@ disqus:
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: https-ange-crespo-github-io
 url: ange-crespo.github.io
+
 t:
   en:
     logo:
@@ -29,6 +30,7 @@ t:
     blog: 
       name: "Blog"
       url: '/blog/'
+    
   fr:
     logo:
       url: "emojione:flag-for-france"
@@ -90,7 +92,8 @@ tr :
       name: ""
     linkedin:
       name: ""
-    
+    author:
+      name: "Details about the author"
 
   fr:
     logo:
@@ -129,6 +132,8 @@ tr :
       name: ""
     linkedin:
       name: ""
+    author:
+      name: "Détails sur l'auteur"
   zh:
     home:
       name: "首页"
@@ -136,3 +141,45 @@ tr :
     about:
       name: "关于"
       url: "/关于/"
+
+
+author:
+  ange:
+    img_url : "selfiecadree.jpg"
+    name : "Ange Crespo"
+    slogan : "La French Touch"
+    tel : 
+      is_displayed : "True"
+      display : "(+33) 0766136757"
+      href : "+33766136757"
+    email:
+      is_displayed : "True"
+      display : "ange.crespo@hotmail.fr"
+      href : "ange.crespo@hotmail.fr"
+    company:
+      name : "#Polyfaces"
+      line1 : "5, Allée de la Source Thermale,"
+      line2 : " 11260 Campagne-sur-Aude"
+      line3 : "France"
+    instagram:
+      is_displayed : "True"
+      href : "https://www.instagram.com/angcrsp/"
+    facebook:
+      is_displayed : "True"
+      href : "https://www.facebook.com/ang.crp"
+    malt :
+      is_displayed : "True"
+      href : "https://www.malt.fr/profile/angecrespo"
+    linkedin :
+      is_displayed : "True"
+      href : "https://www.linkedin.com/in/angecrespo"
+    github:
+      is_displayed: "True"
+      href : "https://ange-crespo.github.io/"
+  colin:
+    name : "Colin Bois"
+    slogan : ""
+    email:
+      is_displayed : "True"
+      display : "colin.bois@rocketmail.com"
+      href : "colin.bois@rocketmail.com"

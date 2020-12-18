@@ -6,6 +6,7 @@ lang: fr
 ref : goisthebest
 categories: developpement go
 comments: true
+author : colin
 ---
 
 > Cet article technique s'adresse à des développeurs. 

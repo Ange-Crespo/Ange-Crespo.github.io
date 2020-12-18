@@ -6,6 +6,7 @@ lang: fr
 ref : guerre_responsabilite
 categories: guerre reflexion
 comments: true
+author: ange
 ---
 
 {:.text-justify}

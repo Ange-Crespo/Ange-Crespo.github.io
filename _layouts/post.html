@@ -11,7 +11,13 @@ layout: default
     <div class="contentholder">
       {{ content }}
     </div>
-
+  </div>
+  <div class="row">
+    <div class="author-container" style="margin-top: -64px;">
+        {% include author.html author_name=page.author %}
+    <div>
+  </div>
+  <div class="row">
     <h5>{% if page.lang == 'fr' %}Autres articles :{% endif %}{% if page.lang == 'en' %}Other articles :{% endif %}</h5>
     <div class="marquee">
       {% assign posts=site.posts | where:"lang", page.lang %}

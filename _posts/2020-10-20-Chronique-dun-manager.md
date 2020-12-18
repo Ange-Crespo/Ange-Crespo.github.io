@@ -6,6 +6,7 @@ lang: fr
 ref : management1
 categories: management rap pro
 comments: true
+author: ange
 ---
 
 {:.text-justify}

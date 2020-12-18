@@ -6,6 +6,7 @@ lang: fr
 ref : talent
 categories: lycee reflexion
 comments: true
+author: ange
 ---
 
 {:.text-justify}

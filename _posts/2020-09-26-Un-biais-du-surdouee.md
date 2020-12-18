@@ -6,6 +6,7 @@ lang: fr
 ref : biaissurdoue
 categories: reflexion
 comments: true
+author: ange
 ---
 
 {:.text-justify}

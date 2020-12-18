@@ -6,6 +6,7 @@ lang: fr
 ref : linuxwar
 categories: developpement linux
 comments: true
+author: colin
 ---
 
 La guerre \*nix VS Windows est fini ! N'en déplaise aux ~~consommateurs~~ utilisateurs de l'OS(\*) de chez Microsoft, la gratuité et la modularité des familles Linux ont eu raison de la multinationale.

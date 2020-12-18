@@ -6,6 +6,7 @@ lang: en
 ref : eagle_and_train
 categories: reflexion allegory
 comments: true
+author: ange
 ---
 
 {:.text-justify}

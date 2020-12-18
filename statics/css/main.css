@@ -272,6 +272,10 @@ display:block !important;
     text-align: right !important;
 }
 
+.author-text{
+    font-size: 18pt;
+}
+
 .header{
     text-decoration:overline underline #feda6a ;
 }

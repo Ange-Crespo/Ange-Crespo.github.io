@@ -6,6 +6,7 @@ lang: fr
 ref : valeursalaire
 categories: reflexion
 comments: true
+author: ange
 ---
 
 {:.text-justify}

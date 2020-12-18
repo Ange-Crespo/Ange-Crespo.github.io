@@ -6,6 +6,7 @@ lang: en
 ref : connaissance
 categories: connaissance reflexion
 comments: true
+author: ange
 ---
 
 There are 2 things : 
