@@ -4,6 +4,7 @@
 <!--script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 -->
 <script>
+
 $(document).ready(function(){
 
     function filter_display(candidate) {
@@ -11,6 +12,7 @@ $(document).ready(function(){
         const urlParams = new URLSearchParams(queryString);
 
         let topics = urlParams.getAll('topics');
+        let authors = urlParams.getAll('authors');
         var not_selected=true;
         if (typeof topics !== 'undefined' && topics.length > 0) {
             for (const index in topics) {
@@ -22,7 +24,19 @@ $(document).ready(function(){
             if (not_selected){
                 candidate.css("display", "none");
             }
-        }    
+        }
+        if (typeof authors !== 'undefined' && authors.length > 0) {
+            for (const index in authors) {
+                if (candidate.data('author').includes(authors[index])){
+                    candidate.css("display", "visible");
+                    not_selected=false;
+                }
+            }
+            if (not_selected){
+                candidate.css("display", "none");
+            }
+        }
+       
     }
     $(".dropdown-trigger").dropdown({coverTrigger: false});
     $(".dropdown-trigger-mobile").dropdown({coverTrigger: false});

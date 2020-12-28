@@ -1,24 +1,42 @@
 ---
 layout : default
-title : #Polyfaces' Blogs
+title : "#Polyfaces' Blogs"
 lang : en
 ref : blog
 ---
 	<h1>{{ page.title }}</h1>
-	<div class="input-field col s12">
-		<form method="get">
-			<select  multiple id="topics" name="topics">
-			<option value="" disabled selected>Choose your favorite topic</option>
-			{% assign counter = 1 %}
-			{% for category in site.categories %}
-			<option value={{ category | first }}>{{ category | first }}{% unless forloop.last %}{% endunless %}</option>
-				
-			{% endfor %}
-			</select>
-			<label></label>
-			<button class="btn waves-effect waves-light black" style="display:inline;" type="submit"><i class="material-icons right">send</i></button>
-		</form>
-	</div>
+	<form method="get">
+		<div class="row">
+			<div class="input-field col s12 m12 l6">
+			
+				<select  multiple id="topics" name="topics">
+				<option value="" disabled selected>Choose your favorite topic</option>
+				{% assign counter = 1 %}
+				{% for category in site.categories %}
+				<option value={{ category | first }}>{{ category | first }}{% unless forloop.last %}{% endunless %}</option>
+					
+				{% endfor %}
+				</select>
+				<label></label>
+
+			</div>
+
+			<div class="input-field col s12 m12 l12">
+			
+				<select  multiple id="topics" name="authors">
+				<option value="" disabled selected>Choose author</option>
+				{% assign counter = 1 %}
+				{% for author in site.author %}
+				<option value={{ author| first }}>{{ author | first }}{% unless forloop.last %}{% endunless %}</option>	
+				{% endfor %}
+				</select>
+				<label></label>
+			
+				<button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
+			
+			</div>
+		</div>
+	</form>
 	<ul class="posts">
 	  {% assign posts=site.posts | where:"lang", page.lang | sort: 'data' %}
 		{% for post in posts %}
@@ -31,5 +49,5 @@ ref : blog
 	</ul>
 
 	
-        	
+	
     

@@ -1,31 +1,47 @@
 ---
 layout : default
-title : Les Blogs de #Polyfaces
+title : 'Les Blogs de #Polyfaces'
 lang : fr
 ref : blog
 ---
 	<h1>{{ page.title }}</h1>
 
-	<div class="input-field col s12">
-		<form method="get">
-			<select  multiple id="topics" name="topics">
-			<option value="" disabled selected>Choissisez vos sujets preferes</option>
-			{% assign counter = 1 %}
-			{% for category in site.categories %}
-			<option value={{ category | first }}>{{ category | first }}{% unless forloop.last %}{% endunless %}</option>
-				
-			{% endfor %}
-			</select>
-			<label></label>
-		
-			<button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
-		</form>
-	</div>
+	<form method="get">
+		<div class="row">
+			<div class="input-field col s12 m12 l6">
+			
+				<select  multiple id="topics" name="topics">
+				<option value="" disabled selected>Choissisez vos sujets preferes</option>
+				{% assign counter = 1 %}
+				{% for category in site.categories %}
+				<option value={{ category | first }}>{{ category | first }}{% unless forloop.last %}{% endunless %}</option>
+					
+				{% endfor %}
+				</select>
+				<label></label>
 
+			</div>
+
+			<div class="input-field col s12 m12 l12">
+			
+				<select  multiple id="topics" name="authors">
+				<option value="" disabled selected>Choissisez votre auteur</option>
+				{% assign counter = 1 %}
+				{% for author in site.author %}
+				<option value={{ author| first }}>{{ author | first }}{% unless forloop.last %}{% endunless %}</option>	
+				{% endfor %}
+				</select>
+				<label></label>
+			
+				<button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
+			
+			</div>
+		</div>
+	</form>
 	<ul class="posts">
 		{% assign posts=site.posts | where:"lang", page.lang | sort: 'data' %}
 		{% for post in posts %}
-		<li class="to_filter" data-categories='{"categories":[{% for category in post.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}]}'>
+		<li class="to_filter" data-author='{{ post.author }}' data-categories='{"categories":[{% for category in post.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}]}'>
 			<span>{{ post.date | date_to_string }}</span> » <a class="deepmategrey-text" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
