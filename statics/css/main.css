@@ -342,3 +342,27 @@ h1{
 .contentholder h2 ~ h4 ~ *:not(h2):not(h3) {
     margin-left: 80px;
 }
+
+.slideicon {
+    overflow: hidden;
+    width: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-right: 1rem;
+    height: 2rem;
+
+ }
+ 
+ .slideicon ul {
+     /* 4 images donc 4 x 100% */
+    width: 400%;
+    padding:0; 
+    margin:0;
+    list-style: none;
+    overflow:auto;
+ }
+ 
+ .slideicon ul li {
+    float:left;
+    width: 2rem;
+ }

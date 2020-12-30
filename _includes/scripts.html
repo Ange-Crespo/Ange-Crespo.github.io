@@ -3,10 +3,29 @@
 <script src="/statics/js/materialize.js"></script>
 <!--script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 -->
-<script>
+<script>  
 
 $(document).ready(function(){
 
+    $(function(){
+        $(".slideicon").each(function(){
+            icons = $(this).data('icon').icon;
+            var ul = ((icons.length==1) ? '<ul class="fixed">' : '<ul>');
+            var endul= "</ul>";
+            var lis = "";
+            
+            icons.forEach(function (item, index) {
+                        lis= lis.concat("<li><i class='material-icons'>");
+                        lis=lis.concat(item);
+                        lis=lis.concat("</i></li>");
+                        });
+            var string=ul.concat(lis).concat(endul);
+            $(this).append(string);
+        });
+    });
+    function randomIntFromInterval(min, max) { // min and max included 
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
     function filter_display(candidate) {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -38,13 +57,34 @@ $(document).ready(function(){
         }
        
     }
+    
     $(".dropdown-trigger").dropdown({coverTrigger: false});
     $(".dropdown-trigger-mobile").dropdown({coverTrigger: false});
     $(".sidenav").sidenav();
     $('select').formSelect({classes:"cat-option select-filter"});
+    $('.collapsible').each(function(){
+        $(this).collapsible({accordion: true});
+
+    });
+
     $('.to_filter').each(function(){
+        
         filter_display($(this));
         });
+
+    $(function(){
+        $(".slideicon ul:not(.fixed)").each(function(){
+            var $slid = $(this);
+            var rand = randomIntFromInterval(3000, 5000);
+            var rand2 = randomIntFromInterval(700, 1300);
+            setInterval(function(){
+                $slid.animate({marginLeft:"-2rem"},rand2,function(){
+                $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+                });
+            }, rand);
+        });
+    });
+    
 });
 </script>
 

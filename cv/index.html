@@ -4,33 +4,73 @@ title: Ange Crespo's CV
 lang: en
 ref: cv
 ---
-<h4>Download my Resume :</h4>
-    <a class="deepmategrey-text" style="padding-left:1em;" href="/statics/cv/Ange_Crespo_Resume_EN.pdf">[Come and get the PDF] !</a>
+<h3>#Polyfaces' Talents :</h3>
 
-<h4>Do you want to collaborate with me or one of my teams ?</h4>
-    
-    <h5 style="padding-left:1em;">An idea you wanna discuss about ?</h5>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" style="padding-left:2em;" href="mailto:ange.crespo@hotmail.fr"> 
-                    <span class="iconify" data-icon="ic:baseline-email" data-inline="false"></span>
-                    Send me an email
-                </a>
-            </div>
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" style="padding-left:2em;" href="tel:+33766136757">
-                    <span class="iconify" data-icon="mdi-phone" data-inline="false"></span>
-                    Call me at +33(0)7.66.13.67.57 !  
-                </a>
-            </div>
-        </div>
-    <h5 style="padding-left:1em;">A specific mission in mind ?</h5>
-        <div class=row> 
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" href="https://www.malt.fr/profile/angecrespo" style="padding-left:2em; text-align: center;">
-                    Hire me with Malt {% include malt.html %}
-                </a>
-            </div>
-        </div>
+<form method="get">
+    <div class="row">
+        <div class="input-field col s12 m12 l12">
         
+            <select  multiple id="topics" name="authors">
+            <option value="" disabled selected>Pick your choice</option>
+            {% assign counter = 1 %}
+            {% for author in site.author %}
+            <option value={{ author| first }}>{{ author | first }}{% unless forloop.last %}{% endunless %}</option>	
+            {% endfor %}
+            </select>
+            <label></label>
+        
+            <button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
+        
+        </div>
+    </div>
+</form>
+
+<ul class="collapsible">
+    <li class="to_filter" data-author="ange">
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Ange Crespo</div>
+      <div class="collapsible-body" data-author='ange'>
+        <h4>My Resume :</h4>
+        
+        <a class="deepmategrey-text" style="padding-left:1em;" href="/statics/cv/Ange_Crespo_Resume_EN.pdf">[Come and get the PDF] !</a>
+
+        <h4>Do you want to collaborate with me or one of my teams ?</h4>
+        
+        <h5 style="padding-left:1em;">An idea you wanna discuss about ?</h5>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <a class="deepmategrey-text" style="padding-left:2em;" href="mailto:ange.crespo@hotmail.fr"> 
+                        <span class="iconify" data-icon="ic:baseline-email" data-inline="false"></span>
+                        Send me an email
+                    </a>
+                </div>
+                <div class="col s12 m12 l12">
+                    <a class="deepmategrey-text" style="padding-left:2em;" href="tel:+33766136757">
+                        <span class="iconify" data-icon="mdi-phone" data-inline="false"></span>
+                        Call me at +33(0)7.66.13.67.57 !  
+                    </a>
+                </div>
+            
+        </div>
+        <h5 style="padding-left:1em;">A specific mission in mind ?</h5>
+            <div class=row> 
+                <div class="col s12 m12 l12">
+                    <a class="deepmategrey-text" href="https://www.malt.fr/profile/angecrespo" style="padding-left:2em; text-align: center;">
+                        Hire me with Malt {% include malt.html %}
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+    </li>
+    <li class="to_filter" data-author="colin">
+        <div class="collapsible-header"><i class="material-icons">filter_drama</i>Colin Bois</div>
+        <div class="collapsible-body"><span>Colin have not posted his resume yet</span></div>
+    </li>
+    <li class="to_filter" data-author="yoan">
+        <div class="collapsible-header"><i class="material-icons">3d_rotation</i>Yoan Delcroix</div>
+        <div class="collapsible-body"><span>Colin have not posted his resume yet</span></div>
+    </li>
+</ul>
+
+    
     

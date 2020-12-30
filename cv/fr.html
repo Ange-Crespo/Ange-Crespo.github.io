@@ -4,34 +4,82 @@ title: Ange Crespo's CV
 lang: fr
 ref: cv
 ---
-<h4>Télécharger :</h4>
-<h5 style="padding-left:1em;">Version longue :</h5>
-    <a class="deepmategrey-text" style="padding-left:2em;" href="/statics/cv/Ange_Crespo_CV_Francais.pdf">[Télécharger le PDF]</a>
-<h5 style="padding-left:1em;">Version courte : </h5>
-    <a class="deepmategrey-text" style="padding-left:2em;" href="/statics/cv/Ange_Crespo_CV_FR_short.pdf">[Télécharger le PDF]</a>
 
-<h4>Envie de collaborer avec moi ou une de mes équipes ?</h4>
+<h3>Les Talents de #Polyfaces :</h3>
+
+<form method="get">
+    <div class="row">
+        <div class="input-field col s12 m12 l12">
+            
+            <select  multiple id="topics" name="authors">
+            <option value="" disabled selected>Choisissez votre auteur</option>
+            {% assign counter = 1 %}
+            {% for author in site.author %}
+            <option value={{ author| first }}>{{ author | first }}{% unless forloop.last %}{% endunless %}</option>	
+            {% endfor %}
+            </select>
+            <label></label>
+        
+            <button class="btn waves-effect waves-light black" type="submit"><i class="material-icons right">send</i></button>
+        
+        </div>
+    </div>
+</form>
+
+<ul class="collapsible">
+    <li class="to_filter" data-author="ange">
+      <div class="collapsible-header">
+        <div class="slideicon" data-icon='{"icon":["filter_drama","bug_report"]}'>
+        </div>
+        Ange Crespo
+    </div>
+      <div class="collapsible-body" data-author='ange'>
+        <h4>Mon CV :</h4>          
+        <h5 style="padding-left:1em;">Version longue :</h5>
+            <a class="deepmategrey-text" style="padding-left:2em;" href="/statics/cv/Ange_Crespo_CV_Francais.pdf">[Télécharger le PDF]</a>
+        <h5 style="padding-left:1em;">Version courte : </h5>
+            <a class="deepmategrey-text" style="padding-left:2em;" href="/statics/cv/Ange_Crespo_CV_FR_short.pdf">[Télécharger le PDF]</a>
     
-    <h5 style="padding-left:1em;">Une idée à discuter ?</h5>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" style="padding-left:2em;" href="mailto:ange.crespo@hotmail.fr"> 
-                    <span class="iconify" data-icon="ic:baseline-email" data-inline="false"></span>
-                    M'envoyer un e-mail
-                </a>
-            </div>
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" style="padding-left:2em;" href="tel:+33766136757">
-                    <span class="iconify" data-icon="mdi-phone" data-inline="false"></span>
-                    Me téléphoner au +33(0)7.66.13.67.57 !  
-                </a>
-            </div>
+        <h4>Envie de collaborer avec moi ou une de mes équipes ?</h4>
+            
+            <h5 style="padding-left:1em;">Une idée à discuter ?</h5>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <a class="deepmategrey-text" style="padding-left:2em;" href="mailto:ange.crespo@hotmail.fr"> 
+                            <span class="iconify" data-icon="ic:baseline-email" data-inline="false"></span>
+                            M'envoyer un e-mail
+                        </a>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <a class="deepmategrey-text" style="padding-left:2em;" href="tel:+33766136757">
+                            <span class="iconify" data-icon="mdi-phone" data-inline="false"></span>
+                            Me téléphoner au +33(0)7.66.13.67.57 !  
+                        </a>
+                    </div>
+                </div>
+            <h5 style="padding-left:1em;">Une mission spécifique en tête?</h5>
+                <div class=row> 
+                    <div class="col s12 m12 l12">
+                        <a class="deepmategrey-text" href="https://www.malt.fr/profile/angecrespo" style="padding-left:2em; text-align: center;">
+                        Me contacter sur Malt {% include malt.html %}
+                        </a>
+                    </div>
+                </div>
         </div>
-    <h5 style="padding-left:1em;">Une mission spécifique en tête?</h5>
-        <div class=row> 
-            <div class="col s12 m12 l12">
-                <a class="deepmategrey-text" href="https://www.malt.fr/profile/angecrespo" style="padding-left:2em; text-align: center;">
-                   Me contacter sur Malt {% include malt.html %}
-                </a>
+    </li>
+    <li class="to_filter" data-author="colin">
+        <div class="collapsible-header">
+            <div class="slideicon" data-icon='{"icon":["filter_drama"]}'>
             </div>
+            Colin Bois
         </div>
+        <div class="collapsible-body"><span>Colin n'a pas posté son CV</span></div>
+    </li>
+    <li class="to_filter" data-author="yoan">
+        <div class="collapsible-header">
+            <div class="slideicon" data-icon='{"icon":["3d_rotation","business","camera_enhance"]}'>
+            </div>
+            Yoan Delcroix</div>
+        <div class="collapsible-body"><span>Yoan n'a pas posté son CV</span></div>
+    </li>
+</ul>
