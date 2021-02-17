@@ -4,7 +4,7 @@ title: "Le salaire du footballeur et de l'aide soignante."
 date: 2020-10-09
 lang: fr
 ref : valeursalaire
-categories: reflexion
+categories: Philo
 comments: true
 author: ange
 ---

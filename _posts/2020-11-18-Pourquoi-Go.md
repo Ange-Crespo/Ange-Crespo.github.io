@@ -4,7 +4,7 @@ title: "Pourquoi choisir Go en 2020/2021 ?"
 date: 2020-11-18
 lang: fr
 ref : goisthebest
-categories: developpement go
+categories: Techno
 comments: true
 author : colin
 ---

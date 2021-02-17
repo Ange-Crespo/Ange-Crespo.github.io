@@ -4,7 +4,7 @@ title: "La guerre des OS touche à sa fin, GNU/Linux a gagné !"
 date: 2020-12-02
 lang: fr
 ref : linuxwar
-categories: developpement linux
+categories: Techno
 comments: true
 author: colin
 ---

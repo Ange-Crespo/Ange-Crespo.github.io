@@ -4,7 +4,7 @@ title: "Abscisse sur ordonnée. Le talent!"
 date: 2010-11-20
 lang: fr
 ref : talent
-categories: lycee reflexion
+categories: Philo
 comments: true
 author: ange
 ---

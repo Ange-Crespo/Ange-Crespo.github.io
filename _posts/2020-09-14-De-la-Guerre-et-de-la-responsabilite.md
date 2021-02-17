@@ -4,7 +4,7 @@ title: "De la Guerre et de la responsabilité"
 date: 2020-09-14
 lang: fr
 ref : guerre_responsabilite
-categories: guerre reflexion
+categories: Philo
 comments: true
 author: ange
 ---

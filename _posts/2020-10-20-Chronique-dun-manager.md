@@ -4,7 +4,7 @@ title: "Chronique d'un manager"
 date: 2020-10-20
 lang: fr
 ref : management1
-categories: management rap pro
+categories: Management
 comments: true
 author: ange
 ---

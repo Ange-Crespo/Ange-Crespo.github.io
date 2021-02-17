@@ -4,7 +4,7 @@ title: "What do you know ?"
 date: 2019-09-18
 lang: en
 ref : connaissance
-categories: connaissance reflexion
+categories: Philo
 comments: true
 author: ange
 ---
