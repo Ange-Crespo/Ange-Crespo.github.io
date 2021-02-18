@@ -46,4 +46,6 @@ Le site de #polyfaces est en cours de développement, il a pour but d’offrir u
 
 Les membres de #polyfaces ont développé un site internet permettant de facilite l’administration de concession automobile. Cette plateforme automatise les démarche administrative et marketing de la mise en vente de véhicule sur Internet.
 
+Merci beaucoup pour votre lecture ! Un de nos projet vous intéresse ? Vous aimeriez collaborer avec nous ? N'hésitez pas à nous contacter !
+
 {:.author}
