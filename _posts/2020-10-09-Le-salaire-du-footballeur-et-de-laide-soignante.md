@@ -9,6 +9,8 @@ comments: true
 author: ange
 ---
 
+> ⚠ **Disclaimer : Article volontairement costique !** Les idées exprimées ici sont volontairement polémiques et pourraient heurter votre sensibilité. Elles ne reflètent en rien l’esprit de bienveillance de #polyfaces. Si vous êtes heurté par la violence des propos cherchez en vous la raison de cet agacement et n’hésitez pas à commenter pour exprimer ce que vous pensez ou ressentez.
+
 {:.text-justify}
 On fait souvent la comparaison entre les salaires des uns et des autres. Pour mettre en avant l’absurdité de notre système capitaliste, on comparera souvent le salaire des footballeurs et celui des « petites gens ». Parlons de la pertinence de comparer le salaire de nos ministres et de nos professeurs, de comparer le salaire des joueurs du PSG et des femmes de chambre, comparons le salaire du PDG de LVMH et de nos chers et chers infirmiers et infirmières. Hélas la comparaison de ses couples de nombres telle quelle n'a pas vraiment de sens... Parce que le système de valeur capitaliste n'a pas de sens. Il n'a pas de sens, mais il marche bien.
 

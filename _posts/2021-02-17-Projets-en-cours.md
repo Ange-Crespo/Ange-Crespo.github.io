@@ -46,6 +46,13 @@ Le site de #polyfaces est en cours de développement, il a pour but d’offrir u
 
 Les membres de #polyfaces ont développé un site internet permettant de facilite l’administration de concession automobile. Cette plateforme automatise les démarche administrative et marketing de la mise en vente de véhicule sur Internet.
 
+## #polymusée :
+
+Avec Yoan Delcroix notre concepteur 3D nous sommes en train de mettre en place un musée virtuel
+
+
 Merci beaucoup pour votre lecture ! Un de nos projet vous intéresse ? Vous aimeriez collaborer avec nous ? N'hésitez pas à nous contacter !
 
+
 {:.author}
+*Auteur : Ange Crespo*
