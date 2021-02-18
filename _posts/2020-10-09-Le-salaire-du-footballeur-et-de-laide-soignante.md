@@ -63,6 +63,7 @@ Rien ne sert de se plaindre si vous n’êtes pas près à faire les efforts pou
 {:.text-justify}
 En attendant, vous savez comment me contacter. Pour changer le salaire des footballeurs, on attendra un peu, changeons le vôtre d'abord !
 
+{:.center}
 [![Jok'air crois en toi](http://img.youtube.com/vi/k9ZBk-2CEI0/0.jpg)](https://www.youtube.com/watch?v=k9ZBk-2CEI0 "Crois en toi")
 
 {:.author}
