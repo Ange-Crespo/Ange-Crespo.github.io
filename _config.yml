@@ -183,3 +183,5 @@ author:
       is_displayed : "True"
       display : "colin.bois@rocketmail.com"
       href : "colin.bois@rocketmail.com"
+  thomas:
+    name: "Thomas Kalensky"

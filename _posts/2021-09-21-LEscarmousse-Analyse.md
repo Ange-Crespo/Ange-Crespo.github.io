@@ -271,9 +271,9 @@ chacun de nous <span style='color:blue'>```et donc en chaque personne qui écout
 
 <span style='color:blue'>```Le public va donc bien plus facilement pouvoir s'identifier à quelqu'un qui a ses forces et 
 ses faiblesses, qu'en quelqu'un qui se montre en permanence en position de force. 
-Montrer ses faiblesses, c'est avoir l'air plus vrai et donc plus crédible.
+Montrer ses faiblesses, c'est avoir l'air plus vrai et donc plus crédible.```</span>
 
-C'est aussi jouer avec la norme de l'ego-trip, très présent dans la musique rap et donc 
+<span style='color:blue'>```C'est aussi jouer avec la norme de l'ego-trip, très présent dans la musique rap et donc 
 apporter de l'originalité et de la nouveauté dans sa performance. Le code n'est pas ici 
 abandonné ou renversé totalement pour autant, car paradoxalement, assumer ses 
 faiblesses demande de la force et donc c'est bel et bien une position de force que le 
