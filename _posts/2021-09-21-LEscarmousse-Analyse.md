@@ -358,7 +358,7 @@ au-dessus.
 
 
 Les références à Marvel, à la pornographie et aux comédies britanniques vont être 
-saisies par <span style='color:blue'>```tout le monde```</span>. Quoique ```la dernière est peut-être un peu plus subtile```</span> et 
+saisies par <span style='color:blue'>```tout le monde```</span>. Quoique <span style='color:blue'>```la dernière est peut-être un peu plus subtile```</span> et 
 encore.
 
 <span style='color:blue'>```Marvel, c'est la culture de masse, tout le monde comprend le message. La pornographie 
