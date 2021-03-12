@@ -191,7 +191,7 @@ qui viennent des campagnes profondes, **le message pourrait être plus difficile
 revanche,** il pourrait être mal interprété ou incompris. Quant **aux sympathisants de 
 droite**, notamment de sa branche radicale, ils seront **clairement en opposition avec le 
 message du texte** et avec ses valeurs, mais **il est évident ici que le texte s'assoit sur les 
-idéaux de ces individus et qu'il ne leur est pas destiné.
+idéaux de ces individus et qu'il ne leur est pas destiné.**
 
 **Pour les autres, ceux qui sont défavorisés, **de couleurs ou immigrés. Le message sera 
 plutôt de **suivre l'exemple de Youm et de ne pas céder à la tentation de la haine, de faire 
