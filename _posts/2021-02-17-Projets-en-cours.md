@@ -25,7 +25,7 @@ La #polycar est une 106 Kid peinte par Reno qui a pour but d’être un objet pr
 - Une campagne publicitaire radio
 - Une campagne publicitaire dans la presse 
 
-## Youm Gotil au Mic : 
+## Youm : 
 
 Youm est un artiste qui enregistre de la musique avec #polyfaces. Ange Crespo est son manager, son rôle est de gérer le retro planning de l’artiste, de mettre en place l’environnement professionnel permettant à l’artiste de créer.
 
