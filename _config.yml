@@ -144,6 +144,7 @@ tr :
 
 
 author:
+
   ange:
     img_url : "selfiecadree.jpg"
     name : "Ange Crespo"
@@ -184,4 +185,21 @@ author:
       display : "colin.bois@rocketmail.com"
       href : "colin.bois@rocketmail.com"
   thomas:
-    name: "Thomas Kalensky"
+    name: "Thomas Kalensky" 
+    laureline:
+    name: "Laureline Lamoureux"
+    tel : 
+      is_displayed : "True"
+      display : "(+33) 0766702406"
+      href : "+33766702406"
+    email:
+      is_displayed : "True"
+      display : " chamoureux31@gmail.com"
+      href : " chamoureux31@gmail.com"
+    company:
+      name : "Chamoureux"
+      href : "https://www.chamoureux.fr/"
+
+    instagram:
+      is_displayed : "True"
+      href : "https://www.instagram.com/chamoureux31/"
