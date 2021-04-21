@@ -185,3 +185,15 @@ author:
       href : "colin.bois@rocketmail.com"
   thomas:
     name: "Thomas Kalensky"
+
+  laureline:
+    name : "Laureline Lamoureux"
+    slogan : ""
+    email:
+      is_displayed : "True"
+      display : "laurelinelamoureux@gmail.com"
+      href : "laurelinelamoureux@gmail.com"
+    site:
+      is_displayed : "True"
+      display : "Chamoureux.fr"
+      href : "https://www.chamoureux.fr/"
