@@ -5,7 +5,7 @@ lang: fr
 ref : Analyse chat félin humain comportement 
 categories: Philo
 comments: true
-author : Laureline Lamoureux
+author : laureline
 ---
 
 La population féline est en constante augmentation depuis plusieurs années. Nos carnivores préférés ont même détrônés le chien. En effet, que ce soit en milieux urbains ou ruraux, le chat est l’animal domestique le plus représentés dans nos foyers avec plus de douze millions d’individus en 2014 (1).

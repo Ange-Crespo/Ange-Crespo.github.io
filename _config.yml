@@ -186,7 +186,6 @@ author:
       href : "colin.bois@rocketmail.com"
   thomas:
     name: "Thomas Kalensky"
-
   laureline:
     name : "Laureline Lamoureux"
     slogan : ""
@@ -199,9 +198,9 @@ author:
       display : "Chamoureux.fr"
       href : "https://www.chamoureux.fr/"
     tel : 
-      is_displayed : "True"
-      display : "(+33) 0766702406"
-      href : "+33766702406"
+      is_displayed : "False"
+      display : "(+33) 0628761564"
+      href : "+33628761564"
     instagram:
       is_displayed : "True"
       href : "https://www.instagram.com/chamoureux31/"
